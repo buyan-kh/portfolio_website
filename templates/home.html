@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyan's Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Buyan</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Hello, I'm <span>Buyan</span>.</h1>
+            <p>A developer passionate about solving problems and creating elegant solutions.</p>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>I’m a developer with a keen interest in software engineering and problem-solving. I’m passionate about creating impactful, user-friendly applications and exploring new technologies.</p>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill-card">Python</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Flask</div>
+                <div class="skill-card">React</div>
+                <div class="skill-card">Machine Learning</div>
+                <div class="skill-card">Git & GitHub</div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300" alt="Project Image">
+                <div class="project-info">
+                    <h3>Project 1</h3>
+                    <p>Short description of the project. Highlight the technologies and your role.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300" alt="Project Image">
+                <div class="project-info">
+                    <h3>Project 2</h3>
+                    <p>Short description of the project. Highlight the technologies and your role.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>You can reach me at <a href="mailto:buyan@example.com">buyan@example.com</a> or follow me on:</p>
+            <div class="social-links">
+                <a href="https://github.com/buyan" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/buyan" target="_blank">LinkedIn</a>
+                <a href="https://twitter.com/buyan" target="_blank">Twitter</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Buyan. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
